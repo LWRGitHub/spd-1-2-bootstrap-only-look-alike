@@ -32,12 +32,14 @@
   <main class="text-center p-5 m-5">
     <img class="mb-4" src="log.png" alt="Google logo" />
     <form class="border text-left rounded-pill mb-4">
-      <div class="text-left d-inline">
-        <a class="p-3" href="#" class="border-0" type="submit">
-          <img  src="find.png" alt="magnifin glass" />
+      <div class="text-left d-inline mr-0 pr-0">
+        <a class="p-3" href="#" class="border-0 mr-0 pr-0" type="submit">
+          <img class="m-0 p-0" src="find.png" alt="magnifin glass" />
         </a>
       </div>
-      <input class="border-0 " type="search">
+      <div class="d-inline falign-self-center">
+        <input class="border-0 w-50" type="search">
+      </div>
       <div class=" d-inline float-right mt-2 pr-3 align-self-center">
         <a href="#">
           <img class="" src="mic.png" alt="image or rainbow mic"/>
@@ -51,17 +53,23 @@
 
   <!-- footer -->
   <footer >
-    <div class="bg-light text-left p-3 fixed-bottom">
-      <a class="text-muted p-2" href="#">Advertising</a>
-      <a class="text-muted p-2" href="#">Business</a>
-      <a class="text-muted p-2" href="#">How Search works</a>
+    <div class="container">
+      <div class="row bg-light">
+        <div class="bg-light fixed-bottom text-right p-3 col-sm-12">
+          <a class="text-muted p-2" href="#">Privacy</a>
+          <a class="text-muted p-2" href="#">Terms</a>
+          <a class="text-muted p-2" href="#">Settings</a>
+        </div>
+        <div class="text-left p-3 fixed-bottom col-sm-12">
+          <a class="text-muted p-2" href="#">Advertising</a>
+          <a class="text-muted p-2" href="#">Business</a>
+          <a class="text-muted p-2" href="#">How Search works</a>
+        </div>
+      </div>
     </div>
+    
 
-    <div class="fixed-bottom position-fixed text-right p-3">
-      <a class="text-muted p-2" href="#">Privacy</a>
-      <a class="text-muted p-2" href="#">Terms</a>
-      <a class="text-muted p-2" href="#">Settings</a>
-    </div>
+    
   </footer>
 
 </body>
